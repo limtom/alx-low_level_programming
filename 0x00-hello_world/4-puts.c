@@ -1,3 +1,6 @@
+/*
+ *Using the puts function
+ */
 #include<stdio.h>
 int main(void)/*main function*/
 {
