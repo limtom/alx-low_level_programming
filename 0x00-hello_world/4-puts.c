@@ -1,12 +1,9 @@
-/*
- *Using the puts function
- */
-#include<stdio.h>
-int main(void)
+#include <stdio.h>
 /**
- *main function
- *returns 0
-*/
+ * Main - main block
+ * Return: 0
+ */
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
