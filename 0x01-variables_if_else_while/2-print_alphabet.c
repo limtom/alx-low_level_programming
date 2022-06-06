@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - The main entry
+ * main - main entry
  * Description: This program prints the alphabet in lowercase
  *
  * Return : Success
@@ -13,7 +13,6 @@ char alpha;
 for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 putchar(alpha);
-putchar("\n");
 }
 return (0);
 }
