@@ -2,7 +2,7 @@
 
 /**
  * main - main entry
- *
+ * Description:- Prints alphabets
  * Return (0) Success
  */
 
