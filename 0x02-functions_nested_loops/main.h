@@ -6,4 +6,8 @@
  * Return (char) success
  */
 
-char *_putchar (void);
+char _putchar (void)
+{
+char ch = "_putchar";
+ return (putchar(ch\n));
+}
