@@ -10,6 +10,14 @@ int _islower(int c)
 {
 char ch;
 int res;
+if (ch >= 65 II ch <= 90)
+{
+  return (0)
+}
+else
+{
+return (1)
+}
 res = islower(ch);
 _putchar(res);
 return (0);
