@@ -7,7 +7,8 @@
 
 int _islower(int c)
 {
-int res = islower(c);
+int res;
+res = islower(c);
 _putchar(res);
 return (0);
 }
