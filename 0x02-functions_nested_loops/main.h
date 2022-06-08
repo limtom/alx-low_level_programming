@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * Main: no main
  *
@@ -6,4 +7,8 @@
  * Return 0 success
  */
 
-int _putchar(int ch);
+int _putchar(int ch)
+{
+  putchar(ch);
+  return (O);
+}
