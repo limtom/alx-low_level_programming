@@ -7,8 +7,4 @@
  * Return 0 success
  */
 
-int _putchar(int ch)
-{
-  putchar(ch);
-  return (0);
-}
+int _putchar(int ch);
