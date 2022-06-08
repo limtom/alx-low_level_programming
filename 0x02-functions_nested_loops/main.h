@@ -6,8 +6,7 @@
  * Return (char) success
  */
 
-char _putchar (void)
-{
-char ch = "_putchar";
- return (putchar(ch\n));
+int _putchar(int nums[]){
+putchar(nums);
+return (0);
 }
