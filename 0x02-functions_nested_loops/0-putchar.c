@@ -1,11 +1,10 @@
-#include "main.h"
+
+0;276;0c#include "main.h"
 #include <stdio.h>
 /**
  *main -  prints _putchar, followed by a new line.
- *
- *Description: don't use any of the standard library
- *
- *return: 0
+ *Description: don't use any of the standard library.
+ * Return: 0
  */
 
 int main(void)
