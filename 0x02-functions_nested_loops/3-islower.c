@@ -1,4 +1,5 @@
 #include <ctype.h>
+#include "main.h"
 /**
  * Description - Write a function that checks for lowercase character.
  *
