@@ -6,7 +6,7 @@
  * Return (char) success
  */
 
-int _putchar(int* texts[]){
-    putchar(texts);
+int _putchar(int ch){
+    putchar(ch);
     return (0);
   }
