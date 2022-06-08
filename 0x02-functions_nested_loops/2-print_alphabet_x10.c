@@ -10,8 +10,8 @@ int i = 0;
 char c;
 while (i < 10)
 {
-char c = 'a';
- while (c <= 'z')
+c = 'a';
+while (c <= 'z')
 {
 putchar(c);
 c++;
