@@ -5,7 +5,7 @@
  *
  *Description: don't use any of the standard library
  *
- *return 0:success
+ *return: 0
  */
 
 int main(void)
