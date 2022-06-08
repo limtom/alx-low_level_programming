@@ -5,7 +5,7 @@
  *
  *Description: don't use any of the standard library
  *
- *return 0
+ *return 0:success
  */
 
 int main(void)
@@ -17,6 +17,6 @@ while (i < 8)
 _putchar(charArr[i]);
 i++;
 }
-putchar(10);  
+putchar(10);
 return (0);
 }
