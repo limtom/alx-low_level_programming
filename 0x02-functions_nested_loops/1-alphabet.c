@@ -4,10 +4,11 @@
  *Description: prints the alphabet, in lowercase, followed by a new line.
  *Return : 0
  */
-
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-putchar(10);
-return 0;
-} 
+char a = 'a';
+while (a <= 'z'){
+putchar(a);
+a++;
+}
+}
