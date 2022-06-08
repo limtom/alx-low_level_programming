@@ -8,7 +8,7 @@
  * Return: 0 success
  */
 
-int main()
+int main(void)
 {
   int charArr[] = {95,112,117,116,99,104,97,114};
   int i = 0;
