@@ -6,4 +6,4 @@
  * Return (char) success
  */
 
-int _putchar(int ch)
+int _putchar(int ch);
