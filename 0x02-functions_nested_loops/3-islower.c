@@ -1,16 +1,18 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * Description - Write a function that checks for lowercase character.
+ * _islower : check for lowercase
  *
  *Return 0 or 1
  */
 
 int _islower(int c)
 {
-char ch;
-int res;
-res = islower(ch);
-_putchar(res);
+if(c >= 96 && c <= 123)
+{
+return (1);
+}
+else {
 return (0);
+}
 }
