@@ -24,7 +24,7 @@ int main(void)
   
 
   
-  i = 0;
+  /* i = 0; */
   
 
   
