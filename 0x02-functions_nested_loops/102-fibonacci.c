@@ -7,22 +7,22 @@
  */
 int main(void)
 {
-	long int a, b, c, sum;
+	long int f, s, c, sum;
 
 	sum = 0;7
-	a = 0;
-	b = 1;
+	f = 0;
+	s = 1;
 	c = 0;
 	while (c < 50)
 	{
-		sum = a + b;
+		sum = f + s;
 		printf("%ld", sum);
 		if (c != 49)
 		{
 			printf(", ");
 		}
-		a = b;
-		b = sum;
+		f = s;
+		s = sum;
 		c++;
 	}
 	printf("\n");
