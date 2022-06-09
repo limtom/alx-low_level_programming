@@ -3,7 +3,7 @@
  * add - add two integers
  * @a: first integer parameter
  * @b: second interger parameter
- * Return : sum of a and b
+ * Return: sum of a and b
  */
 
 int add(int a, int b)
