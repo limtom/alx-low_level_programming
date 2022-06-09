@@ -13,7 +13,7 @@ if (n < 98)
   while (n < 98)
     {
       printf("%i, ", n);
-      i++;
+      n++;
     }
 }
  else
@@ -22,7 +22,7 @@ if (n < 98)
      while (n > 98)
        {
 	 printf("%i, ", n);
-	   i--;
+	   n--;
        }
    }
 }
