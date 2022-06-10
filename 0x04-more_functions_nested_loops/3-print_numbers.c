@@ -12,6 +12,6 @@ while (n <= 9)
 {
 _putchar(n + '0');
 n++;
-} 
-_putchar('\n'); 
+}
+_putchar('\n');
 }
