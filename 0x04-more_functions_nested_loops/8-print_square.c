@@ -15,6 +15,7 @@ int i = 0;
 int j;
 while (i < size)
 {
+_putchar('#');
 j = 0;
 while (j < size)
 {
