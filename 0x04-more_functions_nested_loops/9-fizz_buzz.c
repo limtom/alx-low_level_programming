@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *fizz_buzz - print numbers between 1 and 100 and replace multiples
+ * fizz_buzz- print numbers between 1 and 100 and replace multiples
  * of 3  with fizz and multiples of 5 with buzz while multiples of
  * of 3 and 5 with fizzbuzz
  * Return: 0
