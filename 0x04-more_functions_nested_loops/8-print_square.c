@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_square - print a sqauare
  *
@@ -13,11 +14,10 @@ while (i < size)
 j = 0;
 while (j < size)
 {
-_putchar("#");
+_putchar('#');
 j++;
 }
-_putchar("\n");
+_putchar('\n');
 i++;
 }
-return (0);
 }
