@@ -8,14 +8,17 @@
 int fizzbuzz(void)
 {
 int i;
+char f = "fizz";
+char b = "buzz";
+char fb = "fizzbuzz";
 for (i = 1; i <= 100; i++)
 {
 if (i % 15 == 0)
-printf("fizzBuzz ");
+printf("%s ",fb);
 else if (i % 5 == 0)
-printf("buzz ");
+printf("%s ",b);
 else if (i % 3 == 0)
-printf("fizz ");
+printf("%s ",f);
 else
 printf("%i ", i);
 }
