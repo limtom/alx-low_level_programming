@@ -1,0 +1,23 @@
+/**
+ * print_square - print a sqauare
+ *
+ * @size: Dimension of swuare.
+ * Return: Always 0.
+ */
+void print_square(int size)
+{
+int i = 0;
+int j;
+while (i < size)
+{
+j = 0;
+while (j < size)
+{
+_putchar("#");
+j++;
+}
+_putchar("\n");
+i++;
+}
+return (0);
+}
