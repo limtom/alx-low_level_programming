@@ -19,5 +19,6 @@ printf("fizz ");
 else
 printf("%i ", i);
 }
+printf("\n");
 return (0);
 }
