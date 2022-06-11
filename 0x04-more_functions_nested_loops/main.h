@@ -10,3 +10,4 @@ void print_diagonal(int);
 void print_square(int size);
 int fizzbuzz(void);
 void print_triangle(int size);
+void print_number(int n);
