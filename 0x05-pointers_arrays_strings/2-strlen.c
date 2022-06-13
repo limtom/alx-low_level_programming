@@ -2,16 +2,16 @@
 #include <stdio.h>
 #include <string.h>
 /**
-* strlen- Print the length of a string
+* _ strlen- Print the length of a string
 * @s: The character parmeter
 * Return: An integer which is the length;
 */
 
 int _strlen(char *s)
 {
-char str[100];
+char str[];
 int len;
-strcpy(str,s);
+strcpy(str, s);
 len = strlen(str);
 return (len);
 }

@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
 * strlen- Print the length of a string
 * @s: The character parmeter
