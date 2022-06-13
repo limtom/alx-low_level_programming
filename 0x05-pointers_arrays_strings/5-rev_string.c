@@ -14,6 +14,6 @@ strcpy(str, s);
 len = strlen(str);
 for (i = len-1; i >= 0; i--)
 {
-str[i];
+_putchar(str[i]);
 }
 }
