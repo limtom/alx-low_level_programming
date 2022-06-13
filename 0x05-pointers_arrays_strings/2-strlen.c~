@@ -9,7 +9,7 @@
 
 int _strlen(char *s)
 {
-char str[];
+char str[200];
 int len;
 strcpy(str, s);
 len = strlen(str);
