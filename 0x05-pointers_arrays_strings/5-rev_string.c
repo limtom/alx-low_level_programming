@@ -6,14 +6,14 @@
 * @s: a character parameter to reverse
 * Return: the reverse string
 */
-void rev_string(char *s)
+char rev_string(char *s)
 {
-char str[500];
+char str[1000];
 int len, i;
 strcpy(str, s);
 len = strlen(str);
 for (i = len-1; i >= 0; i--)
 {
-_putchar(str[i]);
+return (str[i]);
 }
 }
