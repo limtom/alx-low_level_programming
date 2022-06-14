@@ -29,7 +29,8 @@
                                                                                 }
                                                                                     
                                                                                         /*Print the password*/
-                                                                                            for(i = 0; i < strlen(password); i++){
+int pass_len = strlen(password);
+                                                                                            for(i = 0; i < pass_len; i++){
                                                                                                     printf("%c", password[i]);
                                                                                                         }
                                                                                                             
