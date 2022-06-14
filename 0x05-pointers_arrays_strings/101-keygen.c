@@ -15,7 +15,7 @@
                 char str[] = "abcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*_+-;:/|";
                     
                         /*Allocate a memory space for the password*/
-                            char *password = malloc(sizeof(char)*10);
+                            char *password = malloc(sizeof(char)*15);
                                 
                                     /*Get the length of the string*/
                                         str_length = strlen(str);
@@ -23,7 +23,7 @@
                                                 srand(time(NULL)); /*Set the seed for the random generator*/
                                                     
                                                         /*Generate the random string */
-                                                            for(i = 0; i < 10; i++){
+                                                            for(i = 0; i < 15; i++){
                                                                     int ch_index = rand()%str_length;/*Number generated between the length of the character*/
                                                                             password[i] = str[ch_index];
                                                                                 }
