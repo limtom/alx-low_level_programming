@@ -11,7 +11,7 @@
     
     int main() {
         /*Create the variable */
-            int i, str_length;
+            int i, str_length, pass_len;
                 char str[] = "abcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*_+-;:/|";
                     
                         /*Allocate a memory space for the password*/
@@ -27,9 +27,9 @@
                                                                     int ch_index = rand()%str_length;/*Number generated between the length of the character*/
                                                                             password[i] = str[ch_index];
                                                                                 }
-                                                                                    
+                                                                                 
                                                                                         /*Print the password*/
-int pass_len = strlen(password);
+pass_len = strlen(password);
                                                                                             for(i = 0; i < pass_len; i++){
                                                                                                     printf("%c", password[i]);
                                                                                                         }
