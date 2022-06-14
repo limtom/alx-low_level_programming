@@ -10,30 +10,30 @@
     */
     
     int main() {
-        //Create the variable 
+        /*Create the variable */
             int i, str_length;
                 char str[] = "abcdefghijklmnopqrstuvwxyz0123456789~!@#$%^&*_+-;:/|";
                     
-                        //Allocate a memory space for the password
+                        /*Allocate a memory space for the password*/
                             char *password = malloc(sizeof(char)*10);
                                 
-                                    //Get the length of the string
+                                    /*Get the length of the string*/
                                         str_length = strlen(str);
                                             
-                                                srand(time(NULL)); //Set the seed for the random generator
+                                                srand(time(NULL)); /*Set the seed for the random generator*/
                                                     
-                                                        //Generate the random string 
+                                                        /*Generate the random string */
                                                             for(i = 0; i < 10; i++){
                                                                     int ch_index = rand()%str_length;//Number generated between the length of the character
                                                                             password[i] = str[ch_index];
                                                                                 }
                                                                                     
-                                                                                        //Print the password
+                                                                                        /*Print the password*/
                                                                                             for(i = 0; i < strlen(password); i++){
                                                                                                     printf("%c", password[i]);
                                                                                                         }
                                                                                                             
-                                                                                                                //Free the allocated memeory
+                                                                                                                /*Free the allocated memeory*/
                                                                                                                     free(password);
                                                                                                                         
                                                                                                                             return 0;
