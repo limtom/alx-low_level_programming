@@ -11,6 +11,6 @@ void print_array(int *a, int n)
 int i;
 for(i = 0; i < n; i++)
 {
-printf("Array%ls[%i] = %d\n", a, i, a[i] );
+printf("array[%i] = %d\n", i, a[i] );
 }
 }
