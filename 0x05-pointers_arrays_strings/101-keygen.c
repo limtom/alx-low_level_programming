@@ -24,7 +24,7 @@
                                                     
                                                         /*Generate the random string */
                                                             for(i = 0; i < 10; i++){
-                                                                    int ch_index = rand()%str_length;//Number generated between the length of the character
+                                                                    int ch_index = rand()%str_length;/*Number generated between the length of the character*/
                                                                             password[i] = str[ch_index];
                                                                                 }
                                                                                     
