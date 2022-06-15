@@ -19,6 +19,6 @@ i++;
 if(src[i] == '\0')
 dest[len++] = '\0';
 }
-_putchar(dest);
+return(dest);
 }
 
