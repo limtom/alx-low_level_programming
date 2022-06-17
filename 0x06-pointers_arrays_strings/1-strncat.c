@@ -9,13 +9,14 @@
 * Return: concatenated string
 */
 
-char *_strncat(char *dest, char *src, int n){
+char *_strcat(char *dest, const char *src, int n){
 int i = 0;
 int len = strlen(dest);
-while(src != '\0' && i < n){
+char *res = dest;
+while (*src != '\0' && i < n){
 dest[len++] = *src;
 src++;
-i++;
 }
-return (dest);
+dest[len++] = '\0';
+return dest;
 }
