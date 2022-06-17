@@ -8,7 +8,7 @@
 * Return: concatenated string
 */
 
-char *_strcat(char *dest, const char *src, int n){
+char *_strncat(char *dest, const char *src, int n){
 int i = 0;
 char *res = dest;
 while (*dest != '\0')
