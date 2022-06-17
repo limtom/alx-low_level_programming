@@ -16,6 +16,6 @@ while (*src != "\0" && n)
 n--;
 }
 while (n--)
-*dest = "\0";
+*dest++ = '\0';
 return (res);
 }
