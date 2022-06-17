@@ -8,16 +8,13 @@
 * Return: combine string containing the dest + src
 */
 
-
-char *_strcat(char *dest, const char *src){
-    char *res = dest;
-        while(*dest != '\0'){
-                dest++;
-                    }
-                        while (*src != '\0'){
-                                *dest++ = *src;
-                                        src++;
-                                            }
-                                                *dest = '\0';
-                                                    return res;
-                                                    }
+char *_strcat(char *dest, char *src)
+{
+char *res = dest;
+while (*dest != '\0')
+dest++;
+while (*src != '\0')
+*dest++ = *src++;
+*dest = *src;
+return (ret);
+}
