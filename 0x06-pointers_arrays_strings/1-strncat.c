@@ -10,11 +10,11 @@
 */
 
 char *_strncat(char *dest, char *src, int n){
-if(dest == NULL) return NULL;
 int i = 0;
 int len = strlen(dest);
-while(i < n){
-dest[len++] = src[i];
+while(src != '\0' && i < n){
+dest[len++] = *src;
+src++;
 i++;
 }
 return (dest);
