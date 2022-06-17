@@ -6,7 +6,6 @@
 * @src: source to copy from
 * Return: combine string 
 */
-
 char *_strcat(char *dest, char *src)
 {
 char *res = dest;
