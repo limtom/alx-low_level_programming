@@ -9,16 +9,17 @@
 */
 
 char *_strcat(char *dest, char *src){
-if(dest == NULL) return NULL;
-int i = 0;
-/*get the length of dest of te dest*/
-int len = strlen(dest);
-while(src[i] != '\0'){
-dest[len++] = src[i];
-i++;
-if(src[i] == '\0')
-dest[len++] = '\0';
+char *res = dest;
+while (*dest != '\0')
+{
+dest++;
 }
-return(dest);
+while(*src != '\0')
+{
+*dest++ = *src++;
+src++;
+}
+*dest = *src;
+return (res);
 }
 
