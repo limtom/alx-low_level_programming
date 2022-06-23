@@ -1,6 +1,7 @@
 #include "main.h"
 
 int chk_palindrome(char *s);
+int len_recursion(char *s);
 
 /**
   *is_palindrome - Returns if string is palindrome
