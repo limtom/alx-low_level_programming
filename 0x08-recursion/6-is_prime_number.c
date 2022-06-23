@@ -15,7 +15,7 @@ return (chk_prime(n, 1));
 /**
   *chk_prime - Check if number is prime
   *@n: number to check
-  *@i: iterator 
+  *@i: iterator
   *Return: 1 for prime or 0 for non prime
   */
 int chk_prime(int n, int i)
