@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _strncpy- copy a string with number of string
@@ -10,8 +10,12 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 char *res = dest;
-while (*src != "\0" && n--)
+while (*src != "\0" && n)
+{
 *dest++ = *src++;
-*dest = "\0";
-return (dest);
+n--;
+}
+while (n--)
+*dest++ = '\0';
+return (res);
 }
