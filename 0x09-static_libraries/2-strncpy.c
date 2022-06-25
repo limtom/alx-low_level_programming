@@ -9,13 +9,14 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
+  int i = 0;
 char *res = dest;
-while (*src != "\0" && n)
+ while (i <= n)
 {
-*dest++ = *src++;
+dest[i] = src[i];
 n--;
 }
 while (n--)
-*dest++ = '\0';
+dest[i] = '\0';
 return (res);
 }
