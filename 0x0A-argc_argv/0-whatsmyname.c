@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- *whatsmyname-a program that prints it's name
+ *main-prints it's name
+ *@argc: argument counts
+ *@argv: argument vector
  *
  *Return: success
  */
