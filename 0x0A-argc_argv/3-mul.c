@@ -19,7 +19,7 @@ return (1);
 }
 else
 {
-res = atoi(argv[i]) * atoi(argv[i+1]);
+res = atoi(argv[i]) * atoi(argv[i + 1]);
 printf("%d\n", res);
 }
 return (0);
