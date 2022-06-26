@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 /**
  *main- print number of arguments
  *@argc: argument count
@@ -10,7 +10,8 @@
 
 int main(int argc, char *argv[])
 {
+int realarg = argc - 1;
 (void) argc;
-printf("%d\n", argc);
-return (0);  
+printf("%d\n", realarg);
+return (0);
 }
